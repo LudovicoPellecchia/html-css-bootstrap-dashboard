@@ -17,11 +17,11 @@
 <body>
     <header>
         <nav class="navbar bg-body-tertiary py-3">
-            <div class="container-fluid justify-content-start flex-nowrap">
+            <div class="container-fluid justify-content-start flex-nowrap bg-white">
                 <a class="navbar-brand pe-3 d-none d-md-block"><img src="../img/logo.svg" alt=""></a>
                 <a class="navbar-brand d-md-none d-sm-block"><img src="../img/mobile-logo.png" alt=""
                         class="mobile-logo-img"></a>
-                <form class="d-flex nav-search-bar flex-grow-1 me-3" role="search">
+                <form class="d-flex position-relative flex-grow-1 me-3" role="search">
                     <input class="form-control me-2 my-bar-style" type="search" placeholder="Search"
                         aria-label="Search">
                     <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
@@ -37,7 +37,7 @@
     </header>
 
     <main class="d-flex flex-nowrap h-100">
-        <div class="d-flex flex-column flex-shrink-0 p-3 left-sidebar w-md-200 w-auto">
+        <div class="left-sidebar d-flex flex-column flex-shrink-0 p-3 w-md-200 w-auto">
             <ul class="nav nav-pills flex-column mb-auto">
                 <li class="nav-item">
                     <a href="#" class="nav-link text-white " aria-current="page">
@@ -60,6 +60,25 @@
                     <i class="fa-solid fa-gear pe-md-3"></i><span class="d-none d-md-inline-block">Admin</span>
                 </a>
             </div>
+        </div>
+
+        <div class="dashboard-container d-flex flex-column">
+            <div class="dashboard-bar bg-primary container-fluid h-200px ">
+                <div class="row flex-column flex-sm-row">
+                    <div class="col-4">
+                        <div class="card">sasa</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">sasa</div>
+
+                    </div>
+                    <div class="col-4">
+                        <div class="card">sasa</div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="dashboard-body"></div>
         </div>
     </main>
 
