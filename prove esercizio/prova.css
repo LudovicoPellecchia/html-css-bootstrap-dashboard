@@ -1,45 +1,59 @@
-body{
+body {
     display: flex;
     flex-direction: column;
     height: 100vh;
 }
 
 
-.nav-search-bar{
+.nav-search-bar {
     position: relative;
 }
 
-.search-icon{
+.search-icon {
     position: absolute;
     left: 20px;
     top: 50%;
-    transform: translate(-50% , -50%);
+    transform: translate(-50%, -50%);
 }
 
-.mobile-logo-img{
+.mobile-logo-img {
     min-width: 30px;
     width: 100%;
     max-width: 50px;
 }
 
-.search-icon i{
+.search-icon i {
     display: inline-block;
     height: 100%;
 }
 
-.bell-color{
+.bell-color {
     color: orange;
 }
 
-.my-bar-style{
+.my-bar-style {
     background-color: #E5E5E5;
     padding-left: 40px;
 }
 
-.navbar-icons{
+.navbar-icons {
     font-size: 1.3rem;
 }
 
-.nav-link.active{
-    background-color: none;
+.left-sidebar{
+    background-color: #051E34;
+    background-image: url(/img/sidebar-bg.png);
 }
+
+.left-sidebar a i {
+    max-width: 35px;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+
+.admin-settings {
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+}
+
+
