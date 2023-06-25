@@ -1,3 +1,99 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.search-icon {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mobile-logo-img {
+    min-width: 30px;
+    width: 100%;
+    max-width: 50px;
+}
+
+.search-icon i {
+    display: inline-block;
+    height: 100%;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    outline: 0;
+    border-color: var(--bs-border-color);
+    box-shadow: none;
+}
+
+.bell-color {
+    color: orange;
+}
+
+.my-bar-style {
+    background-color: #E5E5E5;
+    padding-left: 40px;
+}
+
+.navbar-icons {
+    font-size: 1.3rem;
+}
+
+.left-sidebar{
+    background-color: #051E34;
+    background-image: url(/img/sidebar-bg.png);
+}
+
+.left-sidebar a i {
+    max-width: 35px;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+
+.admin-settings {
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+}
+
+.dashboard-container{
+    width: 100%;
+}
+
+.dashboard-bar{
+    color: white;
+    width: 100%;
+    background-color: var(--bs-primary);
+}
+
+.dashboard-bar-content{
+    padding: 25px 0;
+}
+
+.my-badge-bg{
+    margin-right: 10px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    background-color: #165BBA;
+}
+
+.table-cell-icon{
+    max-width: 30px;
+}
+
+/* .card-body tr{
+    vertical-align: middle;
+} */
+
+.card-body .table button{
+    padding: 4px 8px;
+    aspect-ratio: 1/1;
+}
+
 .my-border-style{
     color: var(--bs-accordion-color);
     background-color: var(--bs-accordion-bg);
@@ -5,4 +101,8 @@
     border-top: 0;
     border-left: 0;
     border-right: 0;
+}
+
+.dashboard-body .col-12 > .card{
+    margin-bottom: 20px;
 }
