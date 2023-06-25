@@ -64,6 +64,23 @@ body {
 }
 
 .dashboard-bar{
+    color: white;
+    width: 100%;
     background-color: var(--bs-primary);
-    height: 200px;
+}
+
+.dashboard-bar-content{
+    padding: 30px 0;
+/* 
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex; */
+}
+
+.my-badge-bg{
+    margin-right: 10px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    background-color: #165BBA;
 }
