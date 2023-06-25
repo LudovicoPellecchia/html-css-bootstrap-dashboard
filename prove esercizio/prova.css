@@ -80,3 +80,11 @@ body {
     font-size: 0.8rem;
     background-color: #165BBA;
 }
+
+.table-cell-icon{
+    max-width: 30px;
+}
+
+.card-body tr{
+    vertical-align: middle;
+}
