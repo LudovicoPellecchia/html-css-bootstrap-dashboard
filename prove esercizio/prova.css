@@ -70,11 +70,7 @@ body {
 }
 
 .dashboard-bar-content{
-    padding: 30px 0;
-/* 
-    flex-wrap: wrap;
-    align-items: center;
-    display: flex; */
+    padding: 25px 0;
 }
 
 .my-badge-bg{
