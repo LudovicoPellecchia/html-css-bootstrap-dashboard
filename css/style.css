@@ -54,7 +54,6 @@ body {
     display: inline-block;
 }
 
-
 .admin-settings {
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
 }
@@ -84,10 +83,6 @@ body {
 .table-cell-icon{
     max-width: 30px;
 }
-
-/* .card-body tr{
-    vertical-align: middle;
-} */
 
 .card-body .table button{
     padding: 4px 8px;
