@@ -43,6 +43,23 @@ body {
     font-size: 1.3rem;
 }
 
+.navbar-icons a{
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-toggle::after {
+    display: none;
+
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    right: 15px;
+    left: auto;
+    margin-top: var(--bs-dropdown-spacer);
+}
+
 .left-sidebar{
     background-color: #051E34;
     background-image: url(/img/sidebar-bg.png);
