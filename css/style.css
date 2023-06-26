@@ -54,6 +54,14 @@ body {
     display: inline-block;
 }
 
+.left-sidebar .nav-link{
+    border-radius: 0;
+}
+
+.left-sidebar .nav-link:hover{
+    background-color: rgba(255, 255, 255, 0.452);
+}
+
 .admin-settings {
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
 }
