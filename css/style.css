@@ -62,7 +62,7 @@ body {
 
 .left-sidebar{
     background-color: #051E34;
-    background-image: url(/img/sidebar-bg.png);
+    background-image: url(../img/sidebar-bg.png);
 }
 
 .left-sidebar a i {
